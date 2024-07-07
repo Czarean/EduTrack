@@ -1,10 +1,11 @@
 # `EduTracker  v0.1`  dApp de Gestion Escolar
-Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de Junio-Julio 2024!
+Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de Junio-Julio 2024!  
 
-# Descripcion de la dApp EduTracker  v0.1:
+
+## Descripcion de la dApp EduTracker  v0.1:
 `EduTracker ` es una aplicación integral diseñada en el lenguaje de programacion `Motoko` desarrollado por `DFinity` para la `Internet Computer ICP Blockchain`. EduTracker Pro esta diseñada para gestionar información de estudiantes y profesores, monitorear el progreso académico de los estudiantes, y automatizar procesos administrativos, optimizando el tiempo y esfuerzo de los educadores.
 
-# Metodos y Funciones Utilizadas en el desarrolo del Codigo actual en Motoko:
+## Metodos y Funciones Utilizadas en el desarrolo del Codigo actual en Motoko:
 
 Aggregar Estudiantes  
     -Creacion de Hashmap: `Estudiantes.Hashmap`  
@@ -43,9 +44,9 @@ Discord: crypto_pirate.
 Soy noob en desarollo, Motoko es mi primer lenguage, y si desean ayudarme o aconsejarme sobre el codigo, pues sepan que estaria muy agradecido y emocionado de colaborar y aprender de otros desarolladores de motoko y Frontend. Pueden contactarme a mi correo, o por mensaje privado en mi cuenta de X (Twitter), o Discord.
 ______________________________________________________________________________________________________________________________________________
 
-# -------Mi Vision de EduTracker Pro completamente terminada------
+## -------Mi Vision de EduTracker Pro completamente terminada------
 
-# EduTracker Pro y sus Características Principales  
+## EduTracker Pro y sus Características Principales  
 Gestión de Información de Estudiantes y Profesores:  
     `Base de Datos:` Almacena información detallada de estudiantes y profesores, incluyendo datos personales, historial académico, y contactos.  
     `Perfil Personalizado:` Cada estudiante y profesor tiene un perfil personalizado con información relevante y actualizada.  
@@ -78,7 +79,7 @@ EduTracker Pro es la solución ideal para cualquier institución educativa que d
 ______________________________________________________________________________________________________________________________________________
 
 
-# Beneficios de Desarrollar EduTracker Pro en la Blockchain de ICP
+## Beneficios de Desarrollar EduTracker Pro en la Blockchain de ICP
 Seguridad y Transparencia:  
     `Integridad de los Datos:` La blockchain garantiza que todos los registros de estudiantes y profesores sean inmutables y verificables, evitando manipulaciones y fraudes.  
     `Transparencia:` Las transacciones y cambios en los datos pueden ser auditados en tiempo real, asegurando transparencia en la gestión de información académica y administrativa.  
@@ -110,5 +111,5 @@ Confianza y Credibilidad:
 Automatización Inteligente:  
     `Contratos Inteligentes:` La utilización de contratos inteligentes permite la automatización de procesos administrativos y académicos, como el registro de calificaciones y la generación de certificados, con mínima intervención humana.  
     
-# Resumen
+## Resumen
 Desarrollar EduTracker Pro en la blockchain de ICP no solo proporciona una plataforma segura, transparente y eficiente, sino que también empodera a las instituciones educativas con herramientas avanzadas y accesibles globalmente. Esta integración asegura que la aplicación esté preparada para enfrentar los desafíos del futuro, ofreciendo una experiencia educativa de alta calidad y confiabilidad.
