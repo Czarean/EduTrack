@@ -5,16 +5,13 @@ Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de J
 `EduTracker ` es una aplicación integral diseñada en el lenguaje de programacion `Motoko` desarrollado por `DFinity` para la `Internet Computer ICP Blockchain`. EduTracker Pro esta diseñada para gestionar información de estudiantes y profesores, monitorear el progreso académico de los estudiantes, y automatizar procesos administrativos, optimizando el tiempo y esfuerzo de los educadores.
 
 # Metodos y Funciones Utilizadas en el desarrolo del Codigo actual en Motoko:
-  
 Aggregar Estudiantes
     -Creacion de Hashmap: `Estudiantes.Hashmap`
     -Hashmap `Estudiantes.put` : Agrega a los Estudiantes al hashmap
 Borrar Estudiantes:
-  
     -`Estudiantes.delete(delete)`
     -`Switch/Case` Usado para ver si el input del nombre del profesor existe o no! Si no existe regresa mensaje, y si existe, lo termina borrando.
 Aggregar Profesores
-  
     -`if/else:` Condiciones para el despliegue de variante de errores/result
     -`result:` despligue de errores cuando no se ingresan todas las casillas
     -Creacion de Hashmap : `Professors.Hashmap`
@@ -22,7 +19,6 @@ Aggregar Profesores
 Borrar Profesores:
     -`Professors.delete(delete)`
     -Usa `Switch/Case` para ver si el input del nombre del profesor existe o no! Si no existe regresa mensaje, y si existe, lo termina borrando.
-
 Otras Funciones y Metodos Usados:
     -`Types:` Estudiates, Anos, Meses, Semanas, Dias, Tracker, Materias/Subjects, Scores
     -`Nested Types:` Typos con elementos, que estan adentro de otros Types con otros elementos.
@@ -32,10 +28,15 @@ Otras Funciones y Metodos Usados:
 
 
 [Desarollador]: Cesar Anaya
+
 [X](https://x.com/IC_Pirate)
+
 [Github](https://github.com/Czarean)
+
 [Correo] czardcryptopirate@gmail.com
+
 [Discord] crypto_pirate.
+
 
 Soy noob en desarollo, Motoko es mi primer lenguage, y si desean ayudarme o aconsejarme sobre el codigo, pues sepan que estaria muy agradecido y emocionado de colaborar y aprender de otros desarolladores de motoko y Frontend. Pueden contactarme a mi correo, o por mensaje privado en mi cuenta de X (Twitter), o Discord.
 ______________________________________________________________________________________________________________________________________________
