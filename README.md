@@ -7,12 +7,9 @@ Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de J
 # Metodos y Funciones Utilizadas en el desarrolo del Codigo actual en Motoko:
 
 Aggregar Estudiantes
-
     -Creacion de Hashmap: `Estudiantes.Hashmap`
     -Hashmap `Estudiantes.put` : Agrega a los Estudiantes al hashmap
-
 Borrar Estudiantes:
-
     -`Estudiantes.delete(delete)`
     -`Switch/Case` Usado para ver si el input del nombre del profesor existe o no! Si no existe regresa mensaje, y si existe, lo termina borrando.
 Aggregar Profesores
@@ -31,7 +28,7 @@ Otras Funciones y Metodos Usados:
     -`Module` // Muevo todos los Types a la carpeta nueva de modulo, y agrego Public a las variables, ya en el mero main.mo tengo que importar y modficicar los typos a MyTypes.estudiantes.
 
 
-Cesar Anaya
+Desarollador: Cesar Anaya
 
 https://x.com/IC_Pirate
 
