@@ -27,15 +27,15 @@ Otras Funciones y Metodos Usados:
     -`Module` // Muevo todos los Types a la carpeta nueva de modulo, y agrego Public a las variables, ya en el mero main.mo tengo que importar y modficicar los typos a MyTypes.estudiantes.
 
 
-[Desarollador]: Cesar Anaya
+Cesar Anaya
 
-[X](https://x.com/IC_Pirate)
+https://x.com/IC_Pirate
 
-[Github](https://github.com/Czarean)
+https://github.com/Czarean
 
-[Correo] czardcryptopirate@gmail.com
+czardcryptopirate@gmail.com
 
-[Discord] crypto_pirate.
+Discord: crypto_pirate.
 
 
 Soy noob en desarollo, Motoko es mi primer lenguage, y si desean ayudarme o aconsejarme sobre el codigo, pues sepan que estaria muy agradecido y emocionado de colaborar y aprender de otros desarolladores de motoko y Frontend. Pueden contactarme a mi correo, o por mensaje privado en mi cuenta de X (Twitter), o Discord.
