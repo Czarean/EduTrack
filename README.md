@@ -1,4 +1,4 @@
-# `EduTracker  v0.1`  dApp de Gestion Escolar
+# `EduTracker v0.1`  dApp de Gestion Escolar
 Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de Junio-Julio 2024!  
 
 
@@ -29,7 +29,8 @@ Otras Funciones y Metodos Usados:
     -`Types:` Estudiates, Anos, Meses, Semanas, Dias, Tracker, Materias/Subjects, Scores  
     -`Nested Types:` Typos con elementos, que estan adentro de otros Types con otros elementos.  
     -`Concatenacion` en la respuesta de mensaje.  
-    -`await` Nos permite esperar que un mensaje asyncrono nos de una respuesta antes de continuar el codigo.  
+    -`await` Nos permite esperar que un mensaje asyncrono nos de una respuesta antes de continuar el codigo. 
+    `and & not` usado para segurarse de no dejar ninguna casilla en blanco cuando introduscamos un nuevo Profesor a la base de datos.  
     -`Module` // Muevo todos los Types a la carpeta nueva de modulo, y agrego Public a las variables, ya en el mero main.mo tengo que importar y modficicar los typos a MyTypes.estudiantes.  
 
 
