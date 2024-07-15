@@ -1,4 +1,4 @@
-//100% Working Code
+//100% Functional Code
 
 import HashMap "mo:base/HashMap";
 import Text "mo:base/Text";
@@ -87,5 +87,137 @@ actor EduTrack{
                 return ("El Professor "  # professor.name # " ha sido Eliminado de la base de datos escolar exitosamente")
                 }
             }
-    }
+    };
+
+//Functions to Update (V) Values on already created (K) Students inside a hashmap--------------------------------------------------------------
+    public func updateStudentEmail(studentId: Text, newEmail: Text) : async Text {
+        switch (Estudiantes.get(studentId)) {
+            case (?student) {
+                let updatedStudent = { student with email = newEmail };
+                Estudiantes.put(studentId, updatedStudent);
+                return    studentId # " Email, has been successfully updated."
+            };
+            case (null) {
+              return "The Student "  # studentId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateStudentDob(studentId: Text, newDob: Text) : async Text {
+        switch (Estudiantes.get(studentId)) {
+            case (?student) {
+                let updatedStudent = { student with dob = newDob };
+                Estudiantes.put(studentId, updatedStudent);
+                return    studentId # " Date of Birth, has been successfully updated."
+            };
+            case (null) {
+              return "The Student "  # studentId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateStudentParent(studentId: Text, newParent: Text) : async Text {
+        switch (Estudiantes.get(studentId)) {
+            case (?student) {
+                let updatedStudent = { student with parentsName = newParent };
+                Estudiantes.put(studentId, updatedStudent);
+                return    studentId # " Parent name, has been successfully updated."
+            };
+            case (null) {
+              return "The Student "  # studentId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateStudentTutor(studentId: Text, newTutor: Text) : async Text {
+        switch (Estudiantes.get(studentId)) {
+            case (?student) {
+                let updatedStudent = { student with tutorName = newTutor };
+                Estudiantes.put(studentId, updatedStudent);
+                return    studentId # " Tutor name, has been successfully updated."
+            };
+            case (null) {
+              return "The Student "  # studentId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateStudentContactN(studentId: Text, newContactN: Text) : async Text {
+        switch (Estudiantes.get(studentId)) {
+            case (?student) {
+                let updatedStudent = { student with contactNumber = newContactN };
+                Estudiantes.put(studentId, updatedStudent);
+                return    studentId # " contact number, has been successfully updated."
+            };
+            case (null) {
+              return "The Student "  # studentId # " does not exist on the school database"
+            };
+        }
+    };
+
+//Functions to Update (V) Values on already created (K) Professors inside a hashmap--------------------------------------------------------------
+    public func updateProfessorEmail(professorId: Text, newEmail: Text) : async Text {
+        switch (Professors.get(professorId)) {
+            case (?professors) { //IDK why but has to be all lower caps for it to work
+                let updatedProfessor = { professors with email = newEmail }; //We use the same case progessors lowecase here as well.
+                Professors.put(professorId, updatedProfessor);
+                return    professorId # " Email, has been successfully updated."
+            };
+            case (null) {
+              return "The Professor "  # professorId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateProfessorContactN(professorId: Text, newContactN: Text) : async Text {
+        switch (Professors.get(professorId)) {
+            case (?professors) { //IDK why but has to be all lower caps for it to work
+                let updatedProfessor = { professors with contactNumber = newContactN }; //We use the same case progessors lowecase here as well.
+                Professors.put(professorId, updatedProfessor);
+                return    professorId # " contact number, has been successfully updated."
+            };
+            case (null) {
+              return "The Professor "  # professorId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateProfessorPid(professorId: Text, newPid: Text) : async Text {
+        switch (Professors.get(professorId)) {
+            case (?professors) { //IDK why but has to be all lower caps for it to work
+                let updatedProfessor = { professors with principalId = newPid }; //We use the same case progessors lowecase here as well.
+                Professors.put(professorId, updatedProfessor);
+                return    professorId # " Principal Id, has been successfully updated."
+            };
+            case (null) {
+              return "The Professor "  # professorId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateProfessorStartingDate(professorId: Text, newStartingDate: Text) : async Text {
+        switch (Professors.get(professorId)) {
+            case (?professors) { //IDK why but has to be all lower caps for it to work
+                let updatedProfessor = { professors with startingDate = newStartingDate }; //We use the same case progessors lowecase here as well.
+                Professors.put(professorId, updatedProfessor);
+                return    professorId # " Starting Date, has been successfully updated."
+            };
+            case (null) {
+              return "The Professor "  # professorId # " does not exist on the school database"
+            };
+        }
+    };
+
+    public func updateProfessorRegistrationDate(professorId: Text, newRegistrationDate: Text) : async Text {
+        switch (Professors.get(professorId)) {
+            case (?professors) { //IDK why but has to be all lower caps for it to work
+                let updatedProfessor = { professors with registrationDate = newRegistrationDate }; //We use the same case progessors lowecase here as well.
+                Professors.put(professorId, updatedProfessor);
+                return    professorId # " Email, has been successfully updated."
+            };
+            case (null) {
+              return "The Professor "  # professorId # " does not exist on the school database"
+            };
+        }
+    };
 }
