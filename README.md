@@ -39,7 +39,7 @@ Developer: Cesar Anaya
 czardcryptopirate@gmail.com    
 Discord: crypto_pirate.  
 
-I am a noob developer; Motoko is my first language, and if you wish to help or advise me on the code, I would be very grateful and excited to collaborate and learn from other Motoko and Frontend developers. You can contact me via email, or private message on my X (Twitter) account, or Discord.
+I am a Junior Motoko developer. Motoko is my first language, and if you wish to help or advise me on the code, I would be very grateful and excited to collaborate and learn from other Motoko and Frontend developers. You can contact me via email, or private message on my X (Twitter) account, or Discord.
 
 ______________________________________________________________________________________________________________________________________________
 
