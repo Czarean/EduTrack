@@ -2,7 +2,10 @@
 Development project for graduation and certification of ICP HUB Mexico June-July 2024!  
   
 ## Description of the EduTracker v0.1 dApp:  
-`EduTracker` is a comprehensive application designed in the `Motoko` programming language developed by `DFinity` for the `Internet Computer ICP Blockchain`. EduTracker Pro is designed to manage student and teacher information, monitor student academic progress, and automate administrative processes, optimizing educators' time and effort.  
+`EduTracker` is a comprehensive application designed in the `Motoko` programming language developed by `DFinity` for the `Internet Computer ICP Blockchain`. EduTracker Pro is designed to manage Schools student and teacher information, monitor student academic progress, and automate administrative processes, optimizing educators' time and effort.  
+
+`Note: This might not be the best, more efficient or optimal code to accomplish this, but this certainly does the job, I did what I could with the lil knowledge I have gathered this past few weeks, So if you have any advise or feedback please let me know, I would appreciate it a lot, Thanks.`
+
   
 ## Methods and Functions Used in the Current Motoko Code:  
   
