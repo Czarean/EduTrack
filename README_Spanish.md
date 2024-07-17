@@ -3,7 +3,10 @@ Trabajo de desarrollo para la graduacion y certificacion del ICP HUB Mexico de J
 
 
 ## Descripcion de la dApp EduTracker  v0.1:
-`EduTracker ` es una aplicación integral diseñada en el lenguaje de programacion `Motoko` desarrollado por `DFinity` para la `Internet Computer ICP Blockchain`. EduTracker Pro esta diseñada para gestionar información de estudiantes y profesores, monitorear el progreso académico de los estudiantes, y automatizar procesos administrativos, optimizando el tiempo y esfuerzo de los educadores.
+`EduTracker ` es una aplicación integral diseñada en el lenguaje de programacion `Motoko` desarrollado por `DFinity` para la `Internet Computer ICP Blockchain`. EduTracker Pro esta diseñada para gestionar información de estudiantes y profesores, monitorear el progreso académico de los estudiantes, y automatizar procesos administrativos, optimizando el tiempo y esfuerzo de los educadores.  
+
+`Note: This might not be the best, more efficient or optimal code to accomplish this, but this certainly does the job, I did what I could with the lil knowledge I have gathered this past few weeks, So if you have any advise or feedback please let me know, I would appreciate it a lot, Thanks.`
+
 
 ## Metodos y Funciones Utilizadas en el desarrolo del Codigo actual en Motoko:
 
@@ -42,7 +45,7 @@ czardcryptopirate@gmail.com
 Discord: crypto_pirate.  
 
 
-Soy noob en desarollo, Motoko es mi primer lenguage, y si desean ayudarme o aconsejarme sobre el codigo, pues sepan que estaria muy agradecido y emocionado de colaborar y aprender de otros desarolladores de motoko y Frontend. Pueden contactarme a mi correo, o por mensaje privado en mi cuenta de X (Twitter), o Discord.
+Soy un Desarollador Junioer de Motoko, Motoko es mi primer lenguage, y si desean ayudarme o aconsejarme sobre el codigo, pues sepan que estaria muy agradecido y emocionado de colaborar y aprender de otros desarolladores de motoko y Frontend. Pueden contactarme a mi correo, o por mensaje privado en mi cuenta de X (Twitter), o Discord.
 ______________________________________________________________________________________________________________________________________________
 
 ## -------Mi Vision de EduTracker Pro completamente terminada------
